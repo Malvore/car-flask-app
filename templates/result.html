@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Comparison Results</title>
+  </head>
+  <body>
+    <h1>Comparison Results</h1>
+    <p>A {{ first_car_year }} {{ first_car_make }} {{ first_car_model }} has a power to weight ratio of {{ first_power_weight_ratio | round(2) }} pounds per horsepower.</p>
+    <p>A {{ second_car_year }} {{ second_car_make }} {{ second_car_model }} has a power to weight ratio of {{ second_power_weight_ratio | round(2) }} pounds per horsepower.</p>
+    <p>The {{ second_car_year }} {{ second_car_make }} {{ second_car_model }} has a {{ performance_comparison_term }} power to weight ratio by {{ percentage_difference | round(2) }}% when compared to the {{ first_car_year }} {{ first_car_make }} {{ first_car_model }}.</p>
+    <a href="/">Back to the form</a>
+  </body>
+</html>
